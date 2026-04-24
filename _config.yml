@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yue Chen 陈 乐"
+title                    : "Yue Chen 陈乐"
 title_separator          : "-"
 name                     : &name "Yue Chen"
 description              : &description "Yue Chen's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page

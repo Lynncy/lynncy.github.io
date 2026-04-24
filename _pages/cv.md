@@ -9,35 +9,34 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* 2014 ~ 2019, Ph.D. degree in Management Science and Engineering at Tsinghua University (advisor: Prof. Qin Gao's lab in the Institute of Human Factors & Ergonomics)
-* October 2017 ~ February 2018, visited the Department of Informatics, University of California, Irvine, mentored by Prof. Gloria Mark and Prof. Ge Gao
-* 2010 ~ 2014, B.S. degree in Industrial Engineering at Tsinghua University
+
 
 Work experience
 ======
 * 2025.1 ~ now: Associate professor
   * East China University of Science and Technology
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+  * School of Art Design and Media 
 
 * 2021.11 ~ 2024.12: Assistant professor (Associate distinguised research fellow)
   * East China University of Science and Technology
-  * Duties included: Merging pull requests
+  * School of Art Design and Media
 
 * 2019.10 ~ 2021.10: Postdoc researcher
   * Tsinghua University
   * Supervisor: Prof. Qin GAO
-  
-Skills
+
+Education
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2014 ~ 2019, Ph.D. degree in Management Science and Engineering
+  * Dept. of Industrial Engineering, Tsinghua University
+  * Supervisor: Prof. Qin GAO (She is my exemplar!!!)
+* October 2017 ~ February 2018, visiting Ph.D. student
+  * visited the Department of Informatics, University of California, Irvine
+  * mentored by Prof. Gloria Mark and Prof. Ge Gao
+* 2010 ~ 2014, B.S. degree in Industrial Engineering
+  * Dept. of Industrial Engineering, Tsinghua University
+
+I was a shy person, but I also had a wonderful few years with friends from the JiSeiDai ACG club and the Chinese Traditional Orchestra during my studies at Tsinghua University. Many thanks to them.
 
 Publications
 ======
