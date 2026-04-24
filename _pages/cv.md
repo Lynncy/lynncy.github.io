@@ -17,20 +17,18 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* 2025.1 ~ now: Associate professor
+  * East China University of Science and Technology
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
+* 2021.11 ~ 2024.12: Assistant professor (Associate distinguised research fellow)
+  * East China University of Science and Technology
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019.10 ~ 2021.10: Postdoc researcher
+  * Tsinghua University
+  * Supervisor: Prof. Qin GAO
   
 Skills
 ======
