@@ -1,10 +1,12 @@
 ---
 title: "Do Designers Generate Ideas Better with a Team of Specialized AI Agents or a General AI Agent?"
 collection: publications
+category: conferences
 permalink: /publication/2025-07-01-Do-Designers-Generate-Ideas-Better-with-a-Team-of-Specialized-AI-Agents-or-a-General-AI-Agent
 date: 2025-07-01
 excerpt: "This study conducted a within-group experiment comparing specialized AI agents to a general agent, and found that a group of agents assigned specific team roles (creator, expert, doer) significantly enhance designers' emotional states, trust, and overall ideation performance."
 venue: 'In the proceedings of Cross-Cultural Design, HCII2025'
+paperurl: 'https://lynncy.github.io/files/2025-Yuxiang-Chen.pdf'
 citation: ' Yuxiang Chen,  Yue Chen,  Yu Han,  Yudi Zhou, &quot;Do Designers Generate Ideas Better with a Team of Specialized AI Agents or a General AI Agent?.&quot; In the proceedings of Cross-Cultural Design, 2025.'
 ---
 

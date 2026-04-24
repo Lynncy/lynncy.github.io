@@ -6,6 +6,7 @@ permalink: /publication/2025-07-01-From-Participants-to-Planners-The-Psychologic
 date: 2025-07-01
 excerpt: 'By conducting a community-based IGP in Shanghai with pre-and-post questionnaires and interviews, this study shows that involving older adults in program design enhances their mental well-being and reduces ageism in younger participants.'
 venue: 'In the proceedings of Human Aspects of IT for the Aged Population, HCII2025'
+paperurl: 'https://lynncy.github.io/files/2025-Luying-Zhang.pdf'
 citation: ' Luying Zhang,  Yue Chen,  Xuan Sun, &quot;From Participants to Planners: The Psychological and Social Benefits of Community Elderly Involvement in Intergenerational Program Planning.&quot; In the proceedings of Human Aspects of IT for the Aged Population, 2025.'
 ---
 

@@ -6,6 +6,7 @@ permalink: /publication/2025-07-01-Overcoming-Interdisciplinary-Communication-Ba
 excerpt: 'Through reflexive ethnography and interviews, this study identifies multi-dimensional communication barriers in video game development and proposes a standardized, collaborative framework to mitigate these discrepancies in complex interdisciplinary projects.'
 date: 2025-07-01
 venue: 'In the proceedings of Cross-Cultural Design, HCII2025'
+paperurl: 'https://lynncy.github.io/files/2025-Xuan-Sun.pdf'
 citation: ' Xuan Sun,  Yue Chen,  Luying Zhang, &quot;Overcoming Interdisciplinary Communication Barriers in the Video Game Industry: An Ethnographic and Interview Study.&quot; In the proceedings of Cross-Cultural Design, 2025.'
 ---
 
