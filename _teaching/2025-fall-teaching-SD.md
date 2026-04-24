@@ -1,5 +1,5 @@
 ---
-title: "Service design"
+title: "Service design (2022-2026)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-fall-teaching-SD
