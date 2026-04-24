@@ -25,6 +25,8 @@ Work experience
   * Tsinghua University
   * Supervisor: Prof. Qin GAO
 
+
+
 Education
 ======
 * 2014 ~ 2019, Ph.D. degree in Management Science and Engineering
@@ -36,7 +38,9 @@ Education
 * 2010 ~ 2014, B.S. degree in Industrial Engineering
   * Dept. of Industrial Engineering, Tsinghua University
 
-> I was a shy person, but I also had a wonderful few years with friends from the JiSeiDai ACG club and the Chinese Traditional Orchestra during my studies at Tsinghua University. Many thanks to them.
+I was a shy person, but I also had a wonderful few years with friends from the JiSeiDai ACG club and the Chinese Traditional Orchestra during my studies at Tsinghua University. Many thanks to them.
+
+
 
 Recent publications
 ======
