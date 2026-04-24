@@ -7,7 +7,7 @@ redirect_from:
   - /aboutme.html
 ---
 
-Hi! I am an Associate Professor in the Department of Industrial Design at the School of Art, Design and Media. My research focuses on human factors, teamwork communication, and human-AI collaboration, including:
+Hi! I am an Associate Professor in the Department of Industrial Design at the School of Art Design and Media, East China University of Science and Technology. My research focuses on human factors, teamwork communication, and human-AI collaboration, including:
 
 - Investigating user needs and motivations that drive the adoption of emerging technologies
 - Designing, developing, and evaluating interactive systems
@@ -17,7 +17,11 @@ My earlier work explored user interactions in domains like social media, online 
 
 My research projects have been funded by the National Natural Science Foundation of China and the China Postdoctoral Science Foundation. My work has been published in high-quality journals and conferences in human factors, and I am deeply honored to have contributed a chapter with my advisor [Prof. Gao](https://www.ie.tsinghua.edu.cn/eng/info/1051/1025.htm) to the 5th edition of the [Handbook of Human Factors and Ergonomics](https://www.wiley.com/en-us/Handbook+of+Human+Factors+and+Ergonomics%2C+5th+Edition-p-9781119636083).
 
+Personal Interests
+Outside of academic pursuits, I am a practitioner of Visual Journaling and Sketching, which help me maintain a keen eye for design and information organization. I also enjoy urban park wandering and gaming, finding inspiration for human-centric systems in both the tranquility of nature and the immersive logic of virtual worlds.
+
+Beyond research, I spend wonderful time in animes and games, visual journaling, sketching, and urban wandering.
 
 News
 ======
-to renew
+2026-04-17 to 2026-04-19, at Hengyang, China: I shared our newest work on the 25th Management Ergonomics Conference of the Chinese Ergonomics Society.

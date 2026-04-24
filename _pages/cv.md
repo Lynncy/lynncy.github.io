@@ -36,9 +36,9 @@ Education
 * 2010 ~ 2014, B.S. degree in Industrial Engineering
   * Dept. of Industrial Engineering, Tsinghua University
 
-I was a shy person, but I also had a wonderful few years with friends from the JiSeiDai ACG club and the Chinese Traditional Orchestra during my studies at Tsinghua University. Many thanks to them.
+> I was a shy person, but I also had a wonderful few years with friends from the JiSeiDai ACG club and the Chinese Traditional Orchestra during my studies at Tsinghua University. Many thanks to them.
 
-Publications
+Recent publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
