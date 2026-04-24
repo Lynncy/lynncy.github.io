@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2014 ~ 2019, Ph.D. degree in Management Science and Engineering at Tsinghua University (advisor: Prof. Qin Gao's lab in the Institute of Human Factors & Ergonomics)
+* October 2017 ~ February 2018, visited the Department of Informatics, University of California, Irvine, mentored by Prof. Gloria Mark and Prof. Ge Gao
+* 2010 ~ 2014, B.S. degree in Industrial Engineering at Tsinghua University
 
 Work experience
 ======
