@@ -5,7 +5,7 @@ var addressPoints = [
     112.5666191
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />Meilong Experimental School Affiliated to ECUST; Shanghai, China",
+    "A series tutorials on AI video generation<br />Meilong Experimental School Affiliated to ECUST; Shanghai, China",
     31.2312707,
     121.4700152
   ]
