@@ -4,7 +4,8 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2026-spring-teaching-PDD
 venue: "ECUST, Industrial Design"
-date: 2026-01-01
+date: 2026-03-01
+excerpt: '64 credit hours, 3 credits'
 location: "Shanghai, China"
 ---
 
@@ -12,7 +13,7 @@ Learning objectives
 ======
 
 * User-Centered Design (UCD): Master the principles and processes of product development with a focus on intelligent product design.
-* Research Methodologies: Competently apply qualitative (interviews, observation) and quantitative (surveys, experiments) methods to identify user needs.
+* Research Methodologies: Competently apply qualitative and quantitative methods to identify user needs.
 * Data-Driven Analysis: Utilize statistical techniques and probability models to analyze user behavior and support design decisions.
 * Prototyping & Evaluation: Develop design concepts into prototypes and conduct scientific user testing or controlled experiments for iteration.
 * Professional Communication: Effectively present design ideas through both verbal reporting and non-verbal techniques (sketching, diagramming).
@@ -31,12 +32,13 @@ Main content
 
 Teaching history
 ======
+
 I taught this course across multiple semesters from 2022 to 2026.
 
 | Academic Year | Program / Major | Class Size |
 | :--- | :--- | :--- |
 | 2025 - 2026 | Industrial Design | 21 Students |
-| 2024 - 2025 | Industrial Design | 63 Students |
+| 2024 - 2025 | Industrial Design & Product Design | 63 Students |
 | 2023 - 2024 | Product Design | 24 Students |
 | 2022 - 2023 | Product Design | 34 Students |
 | 2021 - 2022 | Product Design | 34 Students |
