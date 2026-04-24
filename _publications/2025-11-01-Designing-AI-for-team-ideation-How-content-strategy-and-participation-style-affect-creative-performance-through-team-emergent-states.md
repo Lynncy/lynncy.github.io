@@ -3,9 +3,10 @@ title: "Designing AI for team ideation: How content strategy and participation s
 collection: publications
 category: manuscripts
 permalink: /publication/2025-11-01-Designing-AI-for-team-ideation-How-content-strategy-and-participation-style-affect-creative-performance-through-team-emergent-states
+excerpt: 'This study demonstrates that AI content strategies and participation styles significantly influence team-AI co-ideation performance by shaping team emergent states (TESs), suggesting that GenAI should be designed to dynamically adapt to these cognitive and affective dynamics throughout the creative process.'
 date: 2025-11-01
 venue: 'International Journal of Industrial Ergonomics'
-paperurl: 'https://academicpages.github.io/files/2025-Xi-Xiao-Designing-AI-for-team-ideation.pdf'
+paperurl: 'https://lynncy.github.io/files/2025-Xi-Xiao-Designing-AI-for-team-ideation.pdf'
 citation: ' Xi Xiao,  Yue Chen,  Can Liu, &quot;Designing AI for team ideation: How content strategy and participation style affect creative performance through team emergent states.&quot; International Journal of Industrial Ergonomics, 2025.'
 ---
 
