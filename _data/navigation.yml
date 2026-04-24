@@ -19,12 +19,14 @@ main:
     
 #  - title: "Portfolio"
 #    url: /portfolio/
-        
+
+  - title: "Academic Activities"
+    url: /talks/  
+    
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Academic Activities"
-    url: /talks/   
+ 
     
   # - title: "CV"
   #   url: /cv-json/
