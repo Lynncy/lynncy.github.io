@@ -1,11 +1,11 @@
 ---
-title: " (2022-2025)"
+title: "Intelligent design and visualization (2022-2025)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/2025-spring-teaching-IDV
 venue: "ECUST, Industrial Design, Design"
 date: 2025-03-01
-excerpt: '32 credit hours, 2 credits'
+excerpt: '32 credit hours, 2 credits, elective'
 location: "Shanghai, China"
 ---
 
@@ -33,12 +33,10 @@ Main content
 Teaching history
 ======
 
-I taught this course across multiple semesters from 2022 to 2026.
+I taught this course across multiple semesters from 2022 to 2025.
 
 | Academic Year | Program / Major | Class Size |
 | :--- | :--- | :--- |
-| 2025 - 2026 | Industrial Design | 21 Students |
-| 2024 - 2025 | Industrial Design & Product Design | 63 Students |
-| 2023 - 2024 | Product Design | 24 Students |
-| 2022 - 2023 | Product Design | 34 Students |
-| 2021 - 2022 | Product Design | 34 Students |
+| 2024 - 2025 | Industrial Design, Art Design | 9 Students |
+| 2022 - 2023 | Industrial Design, Art Design | 6 Students |
+| 2021 - 2022 | Industrial Design, Art Design | 2 Students |
