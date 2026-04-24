@@ -12,22 +12,7 @@ location: "Shanghai, China"
 Learning objectives
 ======
 
-* User-Centered Design (UCD): Master the principles and processes of product development with a focus on intelligent product design.
-* Research Methodologies: Competently apply qualitative and quantitative methods to identify user needs.
-* Data-Driven Analysis: Utilize statistical techniques and probability models to analyze user behavior and support design decisions.
-* Prototyping & Evaluation: Develop design concepts into prototypes and conduct scientific user testing or controlled experiments for iteration.
-* Professional Communication: Effectively present design ideas through both verbal reporting and non-verbal techniques (sketching, diagramming).
-* Ethics & Inclusion: Understand the ethical norms of user research and commit to creating inclusive designs that serve diverse user backgrounds.
-
-
-Main content
-======
-
-* Foundations: Product life cycle, market research, and the history of IT product design and User-Centered Design.
-* User Research: Interview and observation, task analysis, analysis of behavioral patterns, questionnaires, and reliability/validity testing for qualitative and quantitative data.
-* Statistical Analysis: Descriptive statistics, linear regression, and hypothesis testing.
-* Design goals and conceptual design: Quality Function Deployment (QFD), function analysis, morphological chart.
-* Testing & Iteration: delphi methods, AHP, heuristic evaluation, cognitive walkthrough, usability testing, and controlled experiments, and usability testing to validate and refine solutions.
+This course aims to utilize data analysis and information visualization technologies to present or design visual information. This course also facilitates students' understanding of human information processing while introducing the fundamental techniques of data processing and visualization. Students explore the design principles and standard workflows of information presentation and data visualization to conduct practical design and data analysis projects.
 
 
 Teaching history
