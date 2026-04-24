@@ -2,9 +2,9 @@
 title: "Post-Purchase Trust in e-Commerce: A Theoretical Framework and a Text Mining-Based Assessment Method"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-05-01-Post-Purchase-Trust-in-e-Commerce-A-Theoretical-Framework-and-a-Text-Mining-Based-Assessment-Method
+permalink: /publication/2023-01-01-Post-Purchase-Trust-in-e-Commerce-A-Theoretical-Framework-and-a-Text-Mining-Based-Assessment-Method
 excerpt: 'This study develops a text mining-based assessment method to quantify post-purchase trust by integrating expectancy-confirmation and product evaluation theories, validated through a survey and the analysis of over one million JD.com consumer comments.'
-date: 2023-05-01
+date: 2023-01-01
 venue: 'International Journal of Human–Computer Interaction'
 paperurl: 'https://lynncy.github.io/files/2022-trust.pdf'
 citation: ' Zhaoyi Ma,  Qin Gao,  Yue Chen, &quot;Post-Purchase Trust in e-Commerce: A Theoretical Framework and a Text Mining-Based Assessment Method.&quot; International Journal of Human–Computer Interaction, 2023.'

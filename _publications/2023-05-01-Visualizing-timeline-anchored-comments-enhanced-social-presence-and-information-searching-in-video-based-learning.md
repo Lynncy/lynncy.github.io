@@ -2,9 +2,9 @@
 title: "Visualizing timeline-anchored comments enhanced social presence and information searching in video-based learning"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-01-01-Visualizing-timeline-anchored-comments-enhanced-social-presence-and-information-searching-in-video-based-learning
+permalink: /publication/2023-05-01-Visualizing-timeline-anchored-comments-enhanced-social-presence-and-information-searching-in-video-based-learning
 excerpt: 'This study developed an interactive visualization tool for timeline-anchored comments and, through a lab experiment with 24 students, demonstrated that such visualization significantly improves social presence and learning performance in complex video-based tasks.'
-date: 2023-01-01
+date: 2023-05-01
 venue: 'Computer Applications in Engineering Education'
 paperurl: 'https://lynncy.github.io/files/2023-timeline-visualization.pdf'
 citation: ' Yue Chen,  Qin Gao, &quot;Visualizing timeline-anchored comments enhanced social presence and information searching in video-based learning.&quot; Computer Applications in Engineering Education, 2023.'
