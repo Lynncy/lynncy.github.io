@@ -10,6 +10,15 @@ tags:
   - obsidian
   - copilot
 ---
+<aside class="sidebar__right sticky" markdown="1">
+<nav class="toc" markdown="1">
+<header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 目录 </h4></header>
+
+* TOC
+{:toc .toc__menu}
+
+</nav>
+</aside>
 
 主要想在obsidian写作的时候让AI基于本地文件生成内容并给我来源。在国内不容易给国外api付款，加上不想用中转站，所以选择用qwen大模型了。
 
