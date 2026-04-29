@@ -3,12 +3,12 @@ title: 'Obsidian copilot配置国产大模型'
 layout: single
 date: 2026-04-28
 permalink: /posts/2026/04/28blog-post-1/
+toc: true          # 触发原生 TOC
+toc_sticky: true   # 触发原生 Sticky 悬浮
 tags:
   - obsidian
   - copilot
 ---
-
-{% include toc %}
 
 主要想在obsidian写作的时候让AI基于本地文件生成内容并给我来源。在国内不容易给国外api付款，加上不想用中转站，所以选择用qwen大模型了。
 

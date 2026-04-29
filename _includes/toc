@@ -1,7 +1,3 @@
-<aside class="sidebar__right sticky">
-<nav class="toc" markdown="1">
-<header><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'file-text' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-*  Auto generated table of contents
-{:toc .toc__menu}
-</nav>
-</aside>
+<ul class="toc__menu">
+  {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+</ul>
