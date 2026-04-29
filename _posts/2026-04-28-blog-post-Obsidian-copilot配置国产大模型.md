@@ -2,6 +2,7 @@
 title: 'Obsidian copilot配置国产大模型'
 date: 2026-04-28
 permalink: /posts/2026/04/28blog-post-1/
+toc: true
 tags:
   - obsidian
   - copilot
