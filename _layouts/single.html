@@ -45,38 +45,7 @@ layout: default
       {% endunless %}
 
       <!-- 从这里开始是后来添加的显示toc的代码 -->
-      <aside class="custom-side-toc">
-        <div class="toc-sticky-wrapper">
-          <p style="font-size: 0.8em; font-weight: bold; color: #999; margin-bottom: 10px;">CONTENTS</p>
-          <!-- 预留一个空的容器，交给 JS 填充 -->
-          <ul id="js-toc-list" style="list-style: none; padding-left: 0; margin: 0;"></ul>
-        </div>
-      </aside>
-
-      <style>
-        @media (min-width: 1200px) {
-          .page__inner-wrap { position: relative; }
-          .custom-side-toc {
-            position: absolute;
-            left: 100%;
-            margin-left: 50px;
-            width: 240px;
-            top: 0;
-          }
-          .toc-sticky-wrapper {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 100px;
-            padding-left: 20px;
-            border-left: 1px solid #f2f3f3;
-            font-size: 0.85em;
-          }
-          .page__content .toc { display: none; }
-        }
-        @media (max-width: 1199px) {
-          .custom-side-toc { display: none; }
-        }
-      </style>
+      {% include toc %}
       <!-- toc代码粘贴到这里结束 -->
 
       <section class="page__content" itemprop="text">
@@ -142,41 +111,3 @@ layout: default
     </div>
   {% endif %}
 </div>
-
-
-<!-- 从这里开始是后来添加的显示toc的代码 -->
-<script>
-  // 这里的脚本负责从正文中抓取标题并生成目录
-  document.addEventListener("DOMContentLoaded", function() {
-    var tocList = document.getElementById('js-toc-list');
-    // 只抓取正文区域 (page__content) 里的 h2 和 h3 标题
-    var headings = document.querySelectorAll('.page__content h2, .page__content h3');
-    
-    if (headings.length > 0) {
-      headings.forEach(function(heading, index) {
-        // 如果标题没有 ID，则手动生成一个
-        if (!heading.id) {
-          heading.id = "toc-head-" + index;
-        }
-        
-        var li = document.createElement('li');
-        li.style.marginBottom = "8px";
-        
-        var a = document.createElement('a');
-        a.href = "#" + heading.id;
-        a.textContent = heading.textContent;
-        a.style.textDecoration = "none";
-        a.style.color = "#333";
-        a.style.fontSize = heading.tagName === 'H3' ? "0.85em" : "0.95em";
-        if (heading.tagName === 'H3') { a.style.paddingLeft = "15px"; }
-        
-        li.appendChild(a);
-        tocList.appendChild(li);
-      });
-    } else {
-      // 如果没有标题，隐藏侧边栏容器
-      document.querySelector('.custom-side-toc').style.display = 'none';
-    }
-  });
-</script>
-<!-- toc的代码结束 -->
