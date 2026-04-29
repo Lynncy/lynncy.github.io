@@ -49,7 +49,17 @@ layout: default
         <div class="toc-sticky-wrapper">
           <p style="font-size: 0.8em; font-weight: bold; color: #999; margin-bottom: 10px;">CONTENTS</p>
           
-          {{ content | toc_only }}
+          {% capture my_toc %}
+            {% if content contains '<ul id="markdown-toc"' %}
+              {{ content | split: '<ul id="markdown-toc"' | last | split: '</ul>' | first | prepend: '<ul id="markdown-toc"' | append: '</ul>' }}
+            {% endif %}
+          {% endcapture %}
+
+          {% if my_toc != "" %}
+            {{ my_toc }}
+          {% else %}
+            <style>.custom-side-toc { display: none !important; }</style>
+          {% endif %}
 
         </div>
       </aside>
