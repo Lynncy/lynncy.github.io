@@ -1,7 +1,38 @@
 <aside class="sidebar__right">
-<nav class="toc" markdown="1">
-<header><h4 class="nav__title"><i class="fa fa-{{ include.icon | default: 'file-text' }}"></i> {{ include.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-*  Auto generated table of contents
-{:toc .toc__menu}
-</nav>
+  <nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> {{ include.title | default: "目录" }}</h4></header>
+    
+    <!-- 关键改动：直接在这里用 JS 抓取，彻底抛弃不工作的 Kramdown 语法 -->
+    <ul id="custom-toc-list" style="list-style: none; padding-left: 0; margin: 0; font-size: 0.9em;"></ul>
+  </nav>
 </aside>
+
+<script>
+  (function() {
+    var generateTOC = function() {
+      var container = document.getElementById('custom-toc-list');
+      if (!container) return;
+      var headings = document.querySelectorAll('.page__content h2, .page__content h3');
+      if (headings.length > 0) {
+        headings.forEach(function(h, i) {
+          if (!h.id) h.id = "toc-" + i;
+          var li = document.createElement('li');
+          li.style.margin = "8px 0";
+          var a = document.createElement('a');
+          a.href = "#" + h.id;
+          a.textContent = h.innerText || h.textContent;
+          a.style.textDecoration = "none";
+          a.style.color = "#666";
+          if (h.tagName === 'H3') li.style.paddingLeft = "15px";
+          li.appendChild(a);
+          container.appendChild(li);
+        });
+      } else {
+        var sidebar = document.querySelector('.sidebar__right');
+        if (sidebar) sidebar.style.display = 'none';
+      }
+    };
+    if (document.readyState === 'complete') { generateTOC(); }
+    else { window.addEventListener('load', generateTOC); }
+  })();
+</script>
