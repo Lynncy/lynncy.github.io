@@ -1,5 +1,6 @@
 ---
 title: 'Obsidian copilot配置国产大模型'
+layout: single
 date: 2026-04-28
 permalink: /posts/2026/04/28blog-post-1/
 toc: true
