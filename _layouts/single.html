@@ -44,13 +44,12 @@ layout: default
         </header>
       {% endunless %}
 
-      <!-- 从这里开始粘贴content代码 -->
+      <!-- 从这里开始是后来添加的显示toc的代码 -->
       <aside class="custom-side-toc">
         <div class="toc-sticky-wrapper">
           <p style="font-size: 0.8em; font-weight: bold; color: #999; margin-bottom: 10px;">CONTENTS</p>
           <!-- 预留一个空的容器，交给 JS 填充 -->
-          <nav id="dynamic-toc" class="toc__menu"></nav>
-
+          <ul id="js-toc-list" style="list-style: none; padding-left: 0; margin: 0;"></ul>
         </div>
       </aside>
 
@@ -78,7 +77,7 @@ layout: default
           .custom-side-toc { display: none; }
         }
       </style>
-      <!-- 粘贴到这里结束 -->
+      <!-- toc代码粘贴到这里结束 -->
 
       <section class="page__content" itemprop="text">
         {{ content }}
@@ -145,39 +144,39 @@ layout: default
 </div>
 
 
+<!-- 从这里开始是后来添加的显示toc的代码 -->
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  const tocContainer = document.getElementById('dynamic-toc');
-  // 仅抓取正文区域内的标题 (h2, h3)
-  const headers = document.querySelectorAll('.page__content h2, .page__content h3');
-  
-  if (headers.length > 0) {
-    const list = document.createElement('ul');
-    headers.forEach((header, index) => {
-      // 如果标题没有 ID，则手动生成一个
-      if (!header.id) {
-        header.id = 'header-' + index;
-      }
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = '#' + header.id;
-      a.textContent = header.textContent;
-      a.style.display = 'block';
-      a.style.padding = '3px 0';
-      
-      // 根据标题等级设置缩进
-      if (header.tagName === 'H3') {
-        li.style.marginLeft = '15px';
-        li.style.fontSize = '0.9em';
-      }
-      
-      li.appendChild(a);
-      list.appendChild(li);
-    });
-    tocContainer.appendChild(list);
-  } else {
-    // 如果文章没有标题，则隐藏整个侧边栏
-    document.querySelector('.custom-side-toc').style.display = 'none';
-  }
-});
+  // 这里的脚本负责从正文中抓取标题并生成目录
+  document.addEventListener("DOMContentLoaded", function() {
+    var tocList = document.getElementById('js-toc-list');
+    // 只抓取正文区域 (page__content) 里的 h2 和 h3 标题
+    var headings = document.querySelectorAll('.page__content h2, .page__content h3');
+    
+    if (headings.length > 0) {
+      headings.forEach(function(heading, index) {
+        // 如果标题没有 ID，则手动生成一个
+        if (!heading.id) {
+          heading.id = "toc-head-" + index;
+        }
+        
+        var li = document.createElement('li');
+        li.style.marginBottom = "8px";
+        
+        var a = document.createElement('a');
+        a.href = "#" + heading.id;
+        a.textContent = heading.textContent;
+        a.style.textDecoration = "none";
+        a.style.color = "#333";
+        a.style.fontSize = heading.tagName === 'H3' ? "0.85em" : "0.95em";
+        if (heading.tagName === 'H3') { a.style.paddingLeft = "15px"; }
+        
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+    } else {
+      // 如果没有标题，隐藏侧边栏容器
+      document.querySelector('.custom-side-toc').style.display = 'none';
+    }
+  });
 </script>
+<!-- toc的代码结束 -->
