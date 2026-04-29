@@ -10,6 +10,8 @@ tags:
   - copilot
 ---
 
+{% include toc %}
+
 主要想在obsidian写作的时候让AI基于本地文件生成内容并给我来源。在国内不容易给国外api付款，加上不想用中转站，所以选择用qwen大模型了。
 
 # 1 安装Copilot 插件
