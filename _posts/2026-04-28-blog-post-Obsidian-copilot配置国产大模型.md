@@ -4,6 +4,8 @@ layout: single
 date: 2026-04-28
 permalink: /posts/2026/04/28blog-post-1/
 toc: true
+toc_label: "Content Table"
+toc_sticky: true
 tags:
   - obsidian
   - copilot
