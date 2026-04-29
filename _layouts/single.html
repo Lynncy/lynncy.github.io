@@ -48,18 +48,8 @@ layout: default
       <aside class="custom-side-toc">
         <div class="toc-sticky-wrapper">
           <p style="font-size: 0.8em; font-weight: bold; color: #999; margin-bottom: 10px;">CONTENTS</p>
-          
-          {% capture my_toc %}
-            {% if content contains '<ul id="markdown-toc"' %}
-              {{ content | split: '<ul id="markdown-toc"' | last | split: '</ul>' | first | prepend: '<ul id="markdown-toc"' | append: '</ul>' }}
-            {% endif %}
-          {% endcapture %}
-
-          {% if my_toc != "" %}
-            {{ my_toc }}
-          {% else %}
-            <style>.custom-side-toc { display: none !important; }</style>
-          {% endif %}
+          <!-- 预留一个空的容器，交给 JS 填充 -->
+          <nav id="dynamic-toc" class="toc__menu"></nav>
 
         </div>
       </aside>
@@ -153,3 +143,41 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const tocContainer = document.getElementById('dynamic-toc');
+  // 仅抓取正文区域内的标题 (h2, h3)
+  const headers = document.querySelectorAll('.page__content h2, .page__content h3');
+  
+  if (headers.length > 0) {
+    const list = document.createElement('ul');
+    headers.forEach((header, index) => {
+      // 如果标题没有 ID，则手动生成一个
+      if (!header.id) {
+        header.id = 'header-' + index;
+      }
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = '#' + header.id;
+      a.textContent = header.textContent;
+      a.style.display = 'block';
+      a.style.padding = '3px 0';
+      
+      // 根据标题等级设置缩进
+      if (header.tagName === 'H3') {
+        li.style.marginLeft = '15px';
+        li.style.fontSize = '0.9em';
+      }
+      
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+    tocContainer.appendChild(list);
+  } else {
+    // 如果文章没有标题，则隐藏整个侧边栏
+    document.querySelector('.custom-side-toc').style.display = 'none';
+  }
+});
+</script>
