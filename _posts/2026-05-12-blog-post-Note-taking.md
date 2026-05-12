@@ -1,7 +1,7 @@
 ---
 title: 'My recent note-taking workflow for single articles using Obsidian, Zotero, and Claude code'
 layout: single
-date: 2026-04-28
+date: 2026-05-12
 permalink: /posts/2026/05/12blog-post-1/
 toc: true          # 触发原生 TOC
 toc_sticky: true   # 触发原生 Sticky 悬浮
