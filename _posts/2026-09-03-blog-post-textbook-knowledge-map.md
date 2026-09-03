@@ -13,5 +13,5 @@ tags:
 
 {% include toc %}
 
-Our school is currently developing a series of planned textbooks (in Chinese), and I am responsible for the volume *Human Factors Experiment Design and Data Analysis*. I have recently organized the main topics of the book into a knowledge network, covering experimental design, measurement, data analysis, and modeling. Sharing it here as a brief overview of the textbook’s structure. Comments and suggestions are very welcome to my email (っ•̀ω•́)っ✎⁾⁾ 
+Our school is currently developing a series of planned textbooks (in Chinese), and I am responsible for the volume *Human Factors Experiment Design and Data Analysis*. I have recently organized the main topics of the book into a knowledge network, covering experimental design, measurement, data analysis, and modeling. Here is the link:[lynncy.github.io/ExperimentKnowledge/](https://lynncy.github.io/ExperimentKnowledge/) Sharing it here as a brief overview of the textbook’s structure. Comments and suggestions are very welcome to my email (っ•̀ω•́)っ✎⁾⁾ 
 
